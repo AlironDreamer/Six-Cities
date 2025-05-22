@@ -23,7 +23,7 @@ const App = (): JSX.Element => {
   }
 
   return (
-    <HistoryRouter history={history}>
+    <HistoryRouter history={history} basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/">
           <Route
