@@ -3,10 +3,10 @@ import {Offer} from './types/offer';
 
 export enum AppRoute {
   Root = '/',
-  Login = '/login',
-  Favorites = '/favorites',
-  NotFound = '/not-found',
-  Property = '/offer'
+  Login = 'login',
+  Favorites = 'favorites',
+  NotFound = 'not-found',
+  Property = 'offer'
 }
 
 export enum AuthorizationStatus {
@@ -51,9 +51,9 @@ export const cityNames = ['Paris', 'Cologne', 'Brussels', 'Amsterdam', 'Hamburg'
 
 export const STARS_COUNT = 5;
 
-export const URL_MARKER_DEFAULT = '/img/pin.svg';
+export const URL_MARKER_DEFAULT = 'img/pin.svg';
 
-export const URL_MARKER_CURRENT = '/img/pin-active.svg';
+export const URL_MARKER_CURRENT = 'img/pin-active.svg';
 
 export const spinnerOverride: CSSProperties = {
   position: 'absolute',

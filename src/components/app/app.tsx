@@ -23,7 +23,7 @@ const App = (): JSX.Element => {
   }
 
   return (
-    <HistoryRouter history={history} basename="/Six-Cities">
+    <HistoryRouter history={history} basename='/Six-Cities'>
       <Routes>
         <Route path="/">
           <Route
